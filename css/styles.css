@@ -138,9 +138,7 @@ aside {
          0 0 5px lightpink;
 }
 
-#header > h1 {
-    margin:0;
-}
+
 
 #nav {
     background-color: aquamarine;
@@ -217,8 +215,8 @@ p {
     border-bottom: 10px #F864E9 solid;
     border-top: 7px #F864E9 solid;
     margin-top: 120;
-    text-align: center;
 }
+
 
 .col-4 > img {
     max-width: 200px;
