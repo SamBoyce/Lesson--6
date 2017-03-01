@@ -222,10 +222,13 @@ p {
     justify-content: space-between;
 }
 
-.col-md-4 {
+#favorite-sites > .row-fav > .col-md-4 > img {
+        margin: 0 auto;
+}
+
+.col-md-4 > img {
     max-width: 250px;
-    max-height: 200px;
-    text-align: justify;
+    max-height: 170px;
 }
 
 
