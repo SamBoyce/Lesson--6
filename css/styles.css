@@ -198,20 +198,6 @@ p {
 }
 
 
-#latest-work > li:before {
-    content:"";
-    border-color: transparent blue;
-    border-style: solid;
-    border-width: .25cm 0 .25cm .35cm;
-    display: block;
-    height: 0;
-    width: 0;
-    left: 32cm;
-    top: .79cm;
-    position: relative;
-    list-style-type: lower-greek;
-
-}
     
 #favorite-sites {
     border-bottom: 10px #F864E9 solid;
