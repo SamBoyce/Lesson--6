@@ -193,7 +193,7 @@ p {
 #latest-work {
     list-style-type: none;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     margin: 0;
 }
 
@@ -213,28 +213,24 @@ p {
 
 }
     
-
-#aside-right h3 {
-    text-align: left;
-}
 #favorite-sites {
     border-bottom: 10px #F864E9 solid;
     border-top: 7px #F864E9 solid;
     margin-top: 120;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+#favorite-sites > .row-fav > .col-md-4 > img {
+        margin: 0 auto;
+}
 
 .col-md-4 > img {
     max-width: 250px;
     max-height: 170px;
 }
 
-.row-fav {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 80%;
-   
-}
 
 footer {
     font-size: 50px;
