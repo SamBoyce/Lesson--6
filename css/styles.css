@@ -150,21 +150,6 @@ aside {
 
 
 
-/*
-.menu {
-    display:flex;
-    background-color: #5fd8dc;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: 0;
-}
-
-#middle-wrapper-width {
-    display:flex;
-    max-width: 960px;
-    margin: 0 auto;
-}
-*/
 
 #main-content-wrapper {
     background-color:none;
@@ -195,8 +180,19 @@ p {
     font-size: 30px;
     text-align: left;
     margin: 0;
+    
 }
 
+#aside-right {
+      color: white;
+    text-shadow: 
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black;
+}
 
     
 #favorite-sites {
