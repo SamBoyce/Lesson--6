@@ -193,7 +193,7 @@ p {
 #latest-work {
     list-style-type: none;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     margin: 0;
 }
 
@@ -206,8 +206,8 @@ p {
     display: block;
     height: 0;
     width: 0;
-    left: 38.8cm;
-    top: .82cm;
+    left: 32cm;
+    top: .79cm;
     position: relative;
     list-style-type: lower-greek;
 
@@ -218,12 +218,12 @@ p {
     border-top: 7px #F864E9 solid;
     margin-top: 120;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
 }
 
-#favorite-sites > .row-fav > .col-md-4 > img {
-        margin: 0 auto;
+#aside-right h3 {
+    text-align: left;
 }
 
 .col-md-4 > img {
